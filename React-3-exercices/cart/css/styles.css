@@ -1,0 +1,221 @@
+/* =====================================================
+ * Estilos unificados para Cart - Book Store
+ * ===================================================== */
+
+/* Reset y estilos base */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: system, -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, "Segoe UI", sans-serif;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #333;
+  background-color: transparent;
+}
+
+/* Layout principal */
+.window {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.window-content {
+  position: relative;
+  overflow-y: auto;
+  display: flex;
+  flex: 1;
+}
+
+/* Cabecera personalizada */
+.cabecera {
+  background-color: #0e0d0d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.cabecera .titulo {
+  color: #ffffff;
+  font-size: x-large;
+}
+
+/* Contador con estilo circular */
+span.blue {
+  background: #5178D0;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em;
+}
+
+/* Utilidades */
+.pull-left {
+  float: left;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #f5f5f4;
+}
+
+/* Botones */
+.btn {
+  display: inline-block;
+  padding: 3px 8px;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: default;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+  -webkit-app-region: no-drag;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-mini {
+  padding: 2px 6px;
+}
+
+.btn-default {
+  color: #333;
+  border-top-color: #c2c0c2;
+  border-right-color: #c2c0c2;
+  border-bottom-color: #a19fa1;
+  border-left-color: #c2c0c2;
+  background-color: #fcfcfc;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #f1f1f1));
+  background-image: -webkit-linear-gradient(top, #fcfcfc 0%, #f1f1f1 100%);
+  background-image: linear-gradient(to bottom, #fcfcfc 0%, #f1f1f1 100%);
+}
+
+.btn-default:active {
+  background-color: #ddd;
+  background-image: none;
+}
+
+/* Panes */
+.pane-group {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+
+.pane {
+  position: relative;
+  overflow-y: auto;
+  flex: 1;
+  border-left: 1px solid #ddd;
+}
+
+.pane:first-child {
+  border-left: 0;
+}
+
+.pane-sm {
+  max-width: 220px;
+  min-width: 150px;
+}
+
+/* Imágenes */
+.img-circle {
+  border-radius: 50%;
+}
+
+/* Listas */
+.list-group {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-group * {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list-group-item {
+  padding: 10px;
+  font-size: 12px;
+  color: #414142;
+  border-top: 1px solid #ddd;
+}
+
+.list-group-item:first-child {
+  border-top: 0;
+}
+
+/* Media object */
+.media-object {
+  margin-top: 3px;
+}
+
+.media-object.pull-left {
+  margin-right: 10px;
+}
+
+.media-body {
+  overflow: hidden;
+}
+
+/* Iconos usando texto/emoji */
+.icon {
+  font-size: 16px;
+  display: inline-block;
+}
+
+/* Grid de libros */
+.wrapper {
+  border: 2px solid #5c5a5a;    
+  background-color: #fffffe;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.wrapper > div {
+  border: 2px solid #8a8585;
+  background-color: #ffffff;
+  padding: 1em;
+  color: #0e0d0d;
+}
