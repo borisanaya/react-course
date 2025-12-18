@@ -24,3 +24,9 @@ Este repositorio contiene todos los materiales, ejercicios y proyectos desarroll
 - Realiza los ejercicios en orden para aprovechar el aprendizaje progresivo.
 - Consulta las soluciones solo después de intentar resolver los ejercicios por tu cuenta.
 - Usa la documentación oficial de React como referencia adicional.
+
+
+## Créditos
+
+Este proyecto incluye código derivado de https://github.com/Amaza-ing/Cursos-Programacion-Temas-y-Ejercicios, cuyo autor es https://github.com/Amaza-ing
+licenciado bajo Creative Commons Attribution 4.0 International.
