@@ -30,3 +30,7 @@ Este repositorio contiene todos los materiales, ejercicios y proyectos desarroll
 
 Este proyecto incluye código derivado de https://github.com/Amaza-ing/Cursos-Programacion-Temas-y-Ejercicios, cuyo autor es https://github.com/Amaza-ing
 licenciado bajo Creative Commons Attribution 4.0 International.
+
+---
+
+**Nota:** Contenidos adpatados para el módulo de DWEC del CFGS DAW.
