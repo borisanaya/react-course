@@ -33,4 +33,4 @@ licenciado bajo Creative Commons Attribution 4.0 International.
 
 ---
 
-**Nota:** Contenidos adpatados para el módulo de DWEC del CFGS DAW. Desarrollado solamente con fines didácticos.
+**Nota:** Contenidos adaptados para el módulo de DWEC del CFGS DAW. Desarrollado solamente con fines didácticos.
